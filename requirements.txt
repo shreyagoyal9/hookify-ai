@@ -1,0 +1,6 @@
+librosa==0.11.0
+numpy
+scipy
+fastapi
+uvicorn
+python-multipart
