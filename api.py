@@ -8,6 +8,8 @@ from pydantic import BaseModel
 import tempfile
 import os
 import httpx
+import static_ffmpeg
+static_ffmpeg.add_paths()  # Auto-downloads ffmpeg binary!
 import subprocess
 from detect_hook import detect_hook
 
