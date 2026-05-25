@@ -1,0 +1,5 @@
+# nixpacks.toml
+# Tell Railway to install ffmpeg for audio conversion
+
+[phases.setup]
+nixPkgs = ["ffmpeg"]
